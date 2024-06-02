@@ -15,5 +15,7 @@ ReadQuest adalah Aplikasi bagi pecinta buku yang memungkinkan pengguna untuk mel
 3. Untuk menambahkan buku, pengguna dapat mengklik tombol "Tambah Gambar" pada aplikasi. Pengguna akan diarahkan ke galeri untuk memilih gambar buku yang ingin ditambahkan. Setelah memilih gambar, pengguna dapat memasukkan judul buku dan nama penulis. Setelah mengklik tombol "Upload", buku tersebut akan ditampilkan di aplikasi.
 
 ## Referensi
-https://freetestapi.com/apis/books
-https://www.youtube.com/watch?v=Rh-Nhsd2g8w&t=1224s
+<li>https://freetestapi.com/apis/books</li>
+<li>https://www.youtube.com/watch?v=Rh-Nhsd2g8w&t=1224s</li>
+
+
