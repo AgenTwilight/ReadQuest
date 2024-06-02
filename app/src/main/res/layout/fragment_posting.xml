@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PostingFragment"
+    android:background="@color/softlavender">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <include
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Book"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:textSize="20sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/addimgbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/add" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Title"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <EditText
+                    android:id="@+id/addBooktitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|start"
+                    android:hint="Book Title"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="28dp"
+                    android:background="@null"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <EditText
+                    android:id="@+id/addAuthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|start"
+                    android:hint="Author"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="28dp"
+                    android:background="@null"/>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Description"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@color/blue"-->
+<!--                android:textSize="20sp"-->
+<!--                android:layout_marginTop="10dp"/>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                app:cardCornerRadius="10dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/addcontent2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:gravity="center_vertical|start"-->
+<!--                    android:hint="Add your own description"-->
+<!--                    android:layout_marginHorizontal="15dp"-->
+<!--                    android:layout_marginVertical="28dp"-->
+<!--                    android:background="@null"/>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+            <Button
+                android:id="@+id/submitpost"
+                android:layout_marginTop="20dp"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:text="Upload"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/blue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
